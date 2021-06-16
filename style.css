@@ -1,0 +1,393 @@
+/*reset CSS start*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*reset CSS End*/
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+body{
+	background: #f3f3f3;
+	overflow-x: hidden;
+}
+header{
+	width: 100%;
+	z-index: 10;
+	position: absolute;
+	padding-top: 20px;
+}
+.container .container_wrapper{
+
+}
+.logo{
+	float: left;
+	width: 30%;
+
+}
+.logo h1{
+	font-size: 36px;
+	color: #F77E06;
+	margin-top: 10px;
+	font-weight: bold;
+
+}
+.menu{
+	width: 70%;
+	float: right;
+	height: 85px;
+}
+.menu ul{
+	width: 100%;
+	height: 85px;
+	margin-left: 170px;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	/*width: 20%;*/
+	height: 100%;
+	margin-right: 20px;
+	margin-top: 10px;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	float: left;
+	padding: 10px 20px 11px 20px;
+    font-size: 18px;
+	background: #F77E06;
+    color: #fff;
+    border-radius:25px;
+    text-transform: capitalize;
+}
+.menu ul li a:hover{
+	border: 1px solid #F77E06;
+	background-color: #fff;
+	color: #F77E06;
+
+}
+/*Hero*/
+.hero{
+	clear: both;
+}
+.container_wrapper_hero{
+	background: #bae1ff;
+}
+.hero_col1{
+	height: 450px;
+    padding: 230px 80px 0px 0px;
+    background: rgba(186,225,255,0.2);
+    margin: -100px 0px 50px -85px;
+    border-radius: 0px 0px 20px 0px;
+}
+.hero_col1 , .hero_col2{
+	
+	width: 70%;
+	float: left;
+	display: inline;
+}
+.hero_col1_wrapper{
+	padding: 100px 110px 10px 150px;
+}
+.hero_col1_wrapper h2{
+	color: #F77E05;
+    font-size: 46px;
+    line-height: 1.7;
+    font-weight: bold;
+}
+.hero_col1_wrapper p{
+	color: #293C6D;
+    font-size: 20px;
+
+}
+.hero_contact{
+	padding: 15px;
+    border: none;
+    font-size: 13px;
+    background: #fff;
+    color: #F77E06;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+.hero_contact:hover{
+	padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #F77E06;
+    color: #fff;
+
+}
+
+.hero_col2{
+	padding-top: 180px;
+	width: 30%;
+	float: right;
+}
+.hero_col2_wrapper{
+	width: 100%;
+
+}
+.hero_col2_wrapper img{
+	margin: 0px 0px 0px -170px;
+    width: 100%;
+    background: rgb(23, 120, 203,0.4);
+    border-radius: 5px 100px 5px 100px;
+
+}
+.about-us
+{
+	clear: both;
+	background: #fff;
+	padding: 20px 0px 30px 0px;
+
+}
+.container-wrapper-about{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}	
+
+.about-us h2 , .services h2 ,.protfolio h2 ,.blog h2, .contact-from h2{
+	color: #F77E05;
+    text-align: center;
+    font-size: 38px;
+    padding: 25px 0px 15px 0px;
+	font-weight: bold;
+
+}
+.container-wrapper-about{
+	margin-top: 20px;
+}
+
+.container-wrapper-about .abt-left , .container-wrapper-about .abt-right{
+	width: 50%;
+}
+.container-wrapper-about .abt-left img{
+	width: 80%;
+    padding-left: 50px;
+}
+.container-wrapper-about .abt-right p{
+	font-size: 16px;
+    color: #293C6D;
+    text-align: justify;
+    padding-right: 60px;
+    line-height: 1.4;
+}
+.services{
+	
+
+}
+.container-wrapper-services{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0px 50px 0px;
+
+}
+.service {
+    text-align: center;
+    width: 30%;
+    margin-left: 3%;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    padding: 30px;
+    }
+.service-icon{
+	font-size: 44px;
+    color: #F77E06;
+	
+}
+.service-title{
+	font-size: 28px;
+    line-height: 2;
+    color: #F77E06;
+	
+}
+.service-info{
+	font-size: 18px;
+    color: #293C6D;
+}
+.protfolio{
+	background: #fff;
+    height: 750px;
+}
+.container-wrapper-protfolio{
+
+}
+.prot-menu{
+	margin: 30px 0px 50px 0px;
+}
+.prot-menu ul{
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    margin: 0px auto;
+}
+.prot-menu ul li{
+	
+}
+.prot-menu ul li a{
+	background: #F77E06;
+    color: #fff;
+    border-radius: 25px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    text-decoration: none;
+	
+}
+.prot-menu ul li a:hover{
+	border: 1px solid #F77E06;
+	background-color: #fff;
+	color: #F77E06;
+	
+}
+.prot-content{
+	clear: both;
+
+}
+.prot-content .image{
+	width: 31.33%;
+    float: left;
+    padding: 0% 0% 2% 2%;
+}
+.prot-content img{
+	width: 100%;
+    border-radius: 10px;
+}
+
+.blog{
+	padding-bottom: 40px;
+}
+.container-wrapper-blog{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blg-c{
+	width: 31.33%;
+    margin: 2%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px #c6c6c6;
+}
+
+.blg-c img{
+	    width: 100%
+}
+
+.blg-c h3{
+	color: #F77E06;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+.blg-c p{
+	color: #293C6D;
+    font-size: 16px;
+    padding: 0px 30px 20px 30px;
+    line-height: 1.3;
+}
+
+.blg-c ul{
+	margin: 10px 0px 25px 0px;
+}
+.blg-c ul li{
+	
+}
+.f-submit,.blg-c ul li a{
+	background: #F77E06;
+    color: #fff;
+    border-radius: 25px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.f-submit:hover,.blg-c ul li a:hover{
+	border: 1px solid #F77E06;
+	background-color: #fff;
+	color: #F77E06;
+}
+
+.contact-from {
+    /* padding: 30px 0px; */
+    background: #fff;
+}
+
+.frm-fld{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.f-name , .f-mail, .f-sms{
+	border: none;
+    padding: 12px;
+    width: 60%;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    background-color: #f3f3f3;
+}
+.f-mail{
+
+}
+.f-sms{
+	height: 100px;
+}
+.f-submit{
+	border: none;
+
+}
+footer{
+	text-align: center;
+    color: #fff;
+    background-color: #F77E06;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
